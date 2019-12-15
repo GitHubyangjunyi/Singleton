@@ -9,65 +9,115 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>ObjectPOOL.xcscheme_^#shared#^_</key>
+		<key>AbstractFactory.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>ObjectPOOLAllocation.xcscheme_^#shared#^_</key>
+		<key>AbstractFactoryConcreteSingleton.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>ObjectPOOLAllocationLess.xcscheme_^#shared#^_</key>
+		<key>AbstractFactoryHideAbstract.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>ObjectPOOLElastic.xcscheme_^#shared#^_</key>
+		<key>AbstractFactoryImplementation.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>ObjectPOOLEmpty.xcscheme_^#shared#^_</key>
+		<key>AbstractFactoryPrototype.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
-		<key>ObjectPOOLExhausted.xcscheme_^#shared#^_</key>
+		<key>AbstractFactoryPrototypeENUMPre.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
-		<key>ObjectPOOLLazy.xcscheme_^#shared#^_</key>
+		<key>FactoryMethod.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
-		<key>ObjectPOOLReusable.xcscheme_^#shared#^_</key>
+		<key>FactoryMethodBaseClass.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
-		<key>Singleton.xcscheme_^#shared#^_</key>
+		<key>FactoryMethodBaseClassDeep.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
-		<key>SingletonConcurrent.xcscheme_^#shared#^_</key>
+		<key>FactoryMethodWithSingleton.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
-		<key>SingletonConcurrentFix.xcscheme_^#shared#^_</key>
+		<key>ObjectPOOL.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
-		<key>TraditionalSingleton.xcscheme_^#shared#^_</key>
+		<key>ObjectPOOLAllocation.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>12</integer>
+		</dict>
+		<key>ObjectPOOLAllocationLess.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>ObjectPOOLElastic.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>ObjectPOOLEmpty.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>ObjectPOOLExhausted.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>ObjectPOOLLazy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>ObjectPOOLReusable.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+		<key>Singleton.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
+		<key>SingletonConcurrent.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
+		<key>SingletonConcurrentFix.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
+		<key>TraditionalSingleton.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -82,12 +132,62 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>1C24C074236C156900D52A80</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C24C085236C1A6A00D52A80</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C2E7E8F236D6DC300504743</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C2E7EAB236D7F1C00504743</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C372FCD236D05A10049E58F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C372FE0236D19720049E58F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C372FF8236D25870049E58F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C373011236D2DC30049E58F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>1C39F3D323534D97009CF323</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>1C3CE98223691E4600E234C0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C3CE9B72369363000E234C0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C3CE9C22369366A00E234C0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

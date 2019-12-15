@@ -16,7 +16,7 @@ final class Library {
         pool = Pool<Book>(itemCount: stockLevel, itemFactory: {() in
             stockId += 1
             return BookSeller.buyBook(author: "Dckens, Charles", title: "Hard Times", stockNumber: stockId)
-        }, itemAllocator: {(var books) in
+        }, itemAllocator: {(books) in
             var selected = 0
             for index in 1 ..< books.count {
                 if books[index].checkoutCount < books[selected].checkoutCount {

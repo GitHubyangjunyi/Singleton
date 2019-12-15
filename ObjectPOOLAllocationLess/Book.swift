@@ -8,7 +8,7 @@
 
 import Foundation
 
-@objc class Book: NSObject, PoolItem{
+class Book {
     let author: String
     let title: String
     let stockNumber: Int

@@ -50,7 +50,7 @@ class Pool<T: AnyObject>{
             if let pitem = item as AnyObject as? PoolItem{
                 if pitem.canReuse {
                     self.data.append(item)
-                    print("\((item as! Book).stockNumber) has been return!")
+                    print("\((item as! Book).stockNumber) has been return!") //为了测试还的是哪本书,这里不该引入Book类型信息,导致耦合
                     self.semaphore.signal()
                 } else {
                     self.ejectedItems += 1

@@ -21,7 +21,7 @@ class Pool<T: AnyObject>{
         self.maxItemCount = maxItemCount
         semaphore = DispatchSemaphore(value: maxItemCount)
     }
-    
+    //改成-1则表示永远等待对象,这会导致后续请求阻塞
     func getFromPool(maxWaitSeconds: Int = 10) -> T? {
         var result: T?
         let waitTime = (maxWaitSeconds == -1) ? DispatchTime.distantFuture : DispatchTime.now() + .seconds(maxWaitSeconds)
@@ -44,7 +44,7 @@ class Pool<T: AnyObject>{
             let pitem = item as AnyObject as? PoolItem
             if pitem == nil || pitem!.canReuse {
                 self.data.append(item)
-                print("\((item as! Book).stockNumber) has been return!")
+                print("\((item as! Book).stockNumber) has been return!")    //为了测试还的是哪本书,这里不该引入Book类型信息,导致耦合
                 self.semaphore.signal()
             }
         })
