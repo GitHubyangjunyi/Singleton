@@ -44,10 +44,10 @@ class Pool<T>{
         })
     }
     
-    func processPoolItems(callback: ([T]) -> Void) {
-        arrayQ.sync(execute: {() in
-            callback(self.data)
-        })
+    func processPoolItems(callBack: ([T]) -> Void) {
+        arrayQ.sync(flags: .barrier) {
+            callBack(data)
+        }
     }
     
 }
